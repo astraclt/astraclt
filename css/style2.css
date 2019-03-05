@@ -38,7 +38,7 @@ a {
 
 
 
-@media (min-width: 1px) {
+@media only screen and (min-width: 1px) and (-webkit-device-pixel-ratio: 3) {
 
 @import url(//cdn.rawgit.com/hiun/NanumSquare/master/nanumsquare.css);
 
@@ -618,7 +618,7 @@ figcaption {
 /*500 이상*/
 /*500 이상*/
 /*500 이상*/
-@media (min-width: 700px) {
+@media only screen and (min-width: 414px) and (-webkit-device-pixel-ratio: 3) {
 
 @import url(//cdn.rawgit.com/hiun/NanumSquare/master/nanumsquare.css);
 
